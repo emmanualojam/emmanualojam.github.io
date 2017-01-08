@@ -1,0 +1,115 @@
+ @font-face { font-family: Thisiswhoweare; src: url('../fonts/Thisiswhoweare.ttf'); } 
+ @font-face { font-family: Thisiswhoweare; font-weight: bold; src: url('../fonts/Thisiswhoweare.ttf');}
+ @font-face { font-family: QumpellkaNo; src: url('../fonts/QumpellkaNo.otf'); } 
+ @font-face { font-family: QumpellkaNo; font-weight: bold; src: url('../fonts/QumpellkaNo.otf');}
+
+body{
+  font-family: "Oswald";
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  word-spacing: 2px;
+  background-color: rgba(2,2,2,0.3);*/
+}
+
+.logo-text{
+	font-family: Thisiswhoweare;
+	color: #f5f614 !important;
+  height: auto;
+  padding: 37px 15px;
+  -webkit-transition: padding 0.3s;
+  transition: padding 0.3s;
+}
+
+.navbar-nav > li > a {
+  padding-top: 37px;
+  font-family: "Oswald";
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-transition: color 0.3s, background-color 0.3s, padding 0.3s;
+  transition: color 0.3s, background-color 0.3s, padding 0.3s;
+}
+
+#top-sec{
+  background-image: url("../img/header.jpg");
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.img-cover{
+	background-color: rgba(2,2,2,0.8);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 850px;
+}
+
+.spacer-sec{
+	margin-top: 50px;
+}
+
+.well{
+	background-color: rgba(2,2,2,0.5);
+	color: rgb(200,200,255) !important;
+	border: 0px !important;
+}
+
+.well2{
+  background-color: rgba(2,2,2,0.2) !important;
+  color: rgb(200,200,255) !important;
+  border: 0px !important;
+  margin-top: 50px;
+}
+
+.standout1{
+	color: #f5f614;
+	font-family: Thisiswhoweare;
+}
+
+.standout{
+	color: #f5f614;
+	font-family: QumpellkaNo;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-width: 0;
+  margin-bottom: 0px;
+  height: 102px;
+  -webkit-transition: background-color 0.3s, height 0.3s;
+  transition: background-color 0.3s, height 0.3s;
+}
+
+.text-ft{
+  color: #9d9d9d;
+}
+
+.nav-navbar-alt{
+  background-color: rgba(40, 40, 40, 0.95) !important;
+  height: 70px !important;
+}
+
+.exmp{
+  width: 80%;
+  height: 80%;
+  margin: 10px 10px 10px 10px;
+}
+
+.coming-soon{
+  color: black; 
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+}
+
+.coming-soon > img{
+  width: 100%;
+  height: auto;
+}
+
+.face-pics{
+  padding-left: 10%;
+}
